@@ -1,16 +1,18 @@
-#com.Sololevelling.app
-## Documentation de git a git hub 
+# com.Sololevelling.app
 
-##Initialisation  du depot 
 
-'''bash
-git 
-git remote add origin SSH_Repo
+## Documentation de git a git hub
 
-'''
+## Initialisation du repot
 
-'''
-    Titre du commit 
-    Ajout d'un commentaire pour specifier le commentaire ajouter et la raison 
-    shdhdhhfhSS
-'''
+Initial commit 
+git add origin nom_ssh
+
+## Ajouter un element 
+git add .
+git commit -m "commentaire "
+git push origin "branch"
+
+## Creer une branch
+
+get checkout -b develop 
