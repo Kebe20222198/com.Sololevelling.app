@@ -6,9 +6,11 @@
 ## Initialisation du repot
 
 Initial commit 
+git init
 git add origin nom_ssh
 
 ## Ajouter un element 
+
 git add .
 git commit -m "commentaire "
 git push origin "branch"
