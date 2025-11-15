@@ -1,21 +1,31 @@
-# com.Sololevelling.app
+# com.Sololevelling.app  
+## 📘 Documentation Git / GitHub
 
-
-## Documentation de git a git hub
-
-## Initialisation du repot
-
-Initial commit 
+## 🚀 Initialiser un dépôt Git
+```bash
 git init
-git add origin nom_ssh
+git remote add origin <url_ssh>
+```
 
-## Ajouter un element 
-
+## ➕ Ajouter des fichiers et envoyer sur GitHub
+```bash
 git add .
-git commit -m "commentaire "
-git push origin "branch"
+git commit -m "commentaire"
+git push origin main
+```
 
-## Creer une branch
+## 🌿 Créer une branche
+```bash
+git checkout -b develop
+```
 
-get checkout -b develop 
-## Bonjour premier test sur ce que j'ai compris jusqu'a present 
+## 🔄 Bonne pratique : Pull Request & Revue de code
+1. Créer une branche pour une nouvelle fonctionnalité.
+2. Faire les modifications dessus.
+3. Envoyer la branche sur GitHub :
+```bash
+git push origin develop
+```
+4. Sur GitHub → ouvrir une Pull Request vers `main`.
+5. Faire la revue de code puis fusionner.
+
